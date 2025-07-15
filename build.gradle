@@ -3,7 +3,7 @@
 buildscript {
     repositories {
         google()
-        jcenter()
+        mavenCentral()
 
     }
     dependencies {
@@ -13,11 +13,14 @@ buildscript {
         // in the individual module build.gradle files
     }
 }
+ext {
+    ndkVersion = '29.0.13599879 rc2'
+}
 
 allprojects {
     repositories {
         google()
-        jcenter()
+        mavenCentral()
 
     }
 }
