@@ -1,4 +1,9 @@
  # 语音合成 Java API Demo 使用指南
+fastspeech2_csmsc_pdlite_1.3.0.zip can be found at
+https://paddlespeech.bj.bcebos.com/Parakeet/released_models/fastspeech2/fastspeech2_csmsc_pdlite_1.3.0.zip<img width="730" height="37" alt="image" src="https://github.com/user-attachments/assets/7a70813f-116b-455b-b74f-725fcc370c4c" />
+fastspeech2_csmsc_arm.nb should be in main/assets/models/cpu
+TODOs:
+ If using a virtual device, it will likely use x86_64 instead arm in real device
 
 在 Android 上实现语音合成功能，此 Demo 有很好的的易用性和开放性，如在 Demo 中跑自己训练好的模型等。
 
